@@ -1,0 +1,63 @@
+#Original em https://support.microsoft.com/pt-br/office/formatar-uma-data-da-maneira-que-voc%C3%AA-quiser-8e10019e-d5d8-47a1-ba95-db95123d273e
+=TEXTO([@Data];"dddd")
+=TEXTO([@Data];"dd/mm/aaaa")
+=CONCATENAR(TEXTO([@Data];"dd/mm/aaaa");" 08:00")
+
+https://support.microsoft.com/pt-br/office/formatar-uma-data-da-maneira-que-voc%C3%AA-quiser-8e10019e-d5d8-47a1-ba95-db95123d273e
+
+Dicas para exibir datas
+Para usar rapidamente o formato de data padrão, clique na célula com a data e pressione Ctrl+Shift+#.
+
+Se uma célula exibir ##### depois que você aplicar a formatação de data, significa que ela provavelmente não é larga o suficiente para exibir o número inteiro. Tente clicar duas vezes na borda direita da coluna que contém as células com #####. Isso irá redimensioná-la automaticamente para ajustar o número. Você também pode arrastar a borda direita da coluna para que ela fique com o tamanho que você quiser.
+
+Para inserir rapidamente a data atual na planilha, selecione qualquer célula vazia, pressione Ctrl+; (ponto-e-vírgula) e pressione Enter, se necessário.
+
+Para inserir uma data que será atualizada para a data atual sempre que você abrir novamente uma planilha ou recalcular uma fórmula, digite =HOJE() em uma célula vazia e pressione Enter.
+
+Para exibir
+
+Use este código
+
+Meses como 1–12
+
+m
+
+Meses como 01–12
+
+mm
+
+Meses como jan–dez
+
+mmm
+
+Meses como janeiro–dezembro
+
+mmmm
+
+Meses como a primeira letra do mês
+
+mmmmm
+
+Dias como 1–31
+
+d
+
+Dias como 01–31
+
+dd
+
+Dias como dom–sáb
+
+ddd
+
+Dias como domingo–sábado
+
+dddd
+
+Anos como 00–99
+
+aa
+
+Anos como 1900–9999
+
+aaaa
